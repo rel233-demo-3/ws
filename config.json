@@ -1,0 +1,13 @@
+{
+  "log": { "disabled": true },
+  "inbounds": [
+    {
+      "type": "trojan",
+      "tag": "grpc-in",
+      "listen": "::",
+      "listen_port": 8443,
+      "users": [{ "password": "qq123456" }],
+      "transport": { "type": "ws", "path": "/" }
+    }
+  ]
+}
